@@ -18,13 +18,11 @@ void NextGeneration(char [MAX_ROWS][MAX_COLUMNS], char [MAX_ROWS][MAX_COLUMNS], 
 void Animate(int, int);
 int LiveCell(char [MAX_ROWS][MAX_COLUMNS], int, int);
 
-/* neighboring cells in major wind directions */
+/* Adding the cardinal directions */
 int North(char [MAX_ROWS][MAX_COLUMNS], int, int);
 int East(char [MAX_ROWS][MAX_COLUMNS], int, int);
 int South(char [MAX_ROWS][MAX_COLUMNS], int, int);
 int West(char [MAX_ROWS][MAX_COLUMNS], int, int);
-
-/* neighboring cells in minor wind directions */
 int NorthEast(char [MAX_ROWS][MAX_COLUMNS], int, int);
 int SouthEast(char [MAX_ROWS][MAX_COLUMNS], int, int);
 int SouthWest(char [MAX_ROWS][MAX_COLUMNS], int, int);
